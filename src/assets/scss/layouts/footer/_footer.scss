@@ -1,0 +1,52 @@
+.footer {
+  padding: 3.563rem 0;
+  // margin-top: 42px;
+  .footer-content {
+    padding: 0 6.375rem;
+  }
+  .copy-right {
+    padding: 1.25rem 0;
+    border-top: 1px solid #fff;
+    .copyright-title {
+      margin-bottom: 0;
+      margin-bottom: 0.625rem;
+    }
+  }
+}
+@include for-desktop {
+  .footer {
+    .footer-content {
+      padding: 0;
+    }
+  }
+}
+@include for-tablet {
+  .footer {
+    padding: 2.375rem  0;
+    .footer-content {
+      padding-bottom: 1.438rem;
+    }
+    .logo {
+      margin-bottom: 1.953rem;
+      width: 4.625rem;
+      height: 1.875rem;
+    }
+    .copy-right {
+      text-align: center;
+      .copyright-title {
+        margin-bottom: 0.5rem;
+      }
+      .gallery {
+        margin-bottom: 2rem;
+      }
+    }
+    i {
+      font-size: 0.938rem;
+    }
+  }
+}
+:dir(rtl) {
+  .list-unstyled {
+    padding: 0;
+  }
+}
